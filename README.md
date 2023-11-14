@@ -1,9 +1,11 @@
 # Analyse-en-Temps-Reel-des-Donnees-du-Marche-Boursier-Utilisant-Kafka
 
 ## Introduction
+
 Ce projet vise à réaliser une analyse en temps réel des données du marché boursier grâce à Kafka.
 
 ## Technologies Utilisées
+
 - **Langage de Programmation** : Python
 - **Services Amazon Web Service (AWS)** :
   - S3  pour le stockage des données
@@ -14,9 +16,10 @@ Ce projet vise à réaliser une analyse en temps réel des données du marché b
 - **Apache Kafka** pour le traitement des flux de données
 
 ## Architecture
-L'architecture du projet est conçue pour être robuste et évolutive. Elle permet une ingestion efficace des données en flux continu, un traitement intermédiaire (si nécessaire) et une analyse en aval pour extraire des informations pertinentes.
 
-![Architecture](Architecture.jpg)
+![Architecteur](https://github.com/RachidDay/Analyse-en-Temps-Reel-des-Donnees-du-Marche-Boursier-Utilisant-Kafka/assets/93099244/d1dbb284-5102-4438-85a2-f8944c74ee5d)
+
+
 
 ## Mise en Œuvre
 Le projet est structuré comme suit :
@@ -25,14 +28,6 @@ Le projet est structuré comme suit :
 3. **Stockage des Données** : Les données traitées sont stockées de manière sécurisée sur AWS S3.
 4. **Analyse des Données** : Les données stockées sont analysées en utilisant AWS Athena et les résultats sont catalogués via AWS Glue.
 
-## Contribution
-Les contributions à ce projet sont les bienvenues. Vous pouvez contribuer en :
-- Améliorant le code d'ingestion ou de traitement des données.
-- Proposant des analyses plus approfondies ou des méthodes de visualisation.
-- Optimisant l'infrastructure AWS pour des performances accrues.
-
-## Licence
-Ce projet est distribué sous licence [insérer la licence appropriée ici]. Veuillez voir le fichier LICENSE pour plus d'informations.
 
 ## Contact
 Pour toute question, veuillez me contacter à dayrachid20@gmail.com.
